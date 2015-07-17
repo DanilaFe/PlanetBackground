@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#0A0A29</color>
+    <color name="sun">#FFA10A</color>
+    <color name="mercuryPrimary">#E6E6E6</color>
+    <color name="mercurySecondary">#EBEBEB</color>
+    <color name="venusPrimary">#AA5F1B</color>
+    <color name="venusSecondary">#B26F32</color>
+    <color name="earthPrimary">#2C42FF</color>
+    <color name="earthSecondary">#2C42FF</color>
+    <color name="marsPrimary">#aa5f1b</color>
+    <color name="marsSecondary">#B26F32</color>
+    <color name="jupiterPrimary">#A5AB89</color>
+    <color name="jupiterSecondary">#B7BCA1</color>
+    <color name="saturnPrimary">#D09F50</color>
+    <color name="saturnSecondary">#D5A962</color>
+    <color name="uranusPrimary">#AFDBF5</color>
+    <color name="uranusSecondary">#B7DFF6</color>
+    <color name="neptunePrimary">#6390E3</color>
+    <color name="neptuneSecondary">#6390E3</color>
+    <color name="plutoPrimary">#5F2925</color>
+    <color name="plutoSecondary">#6F3E3B</color>
+</resources>
