@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#0A0A29</color>
+    <color name="sun">#FFA10A</color>
+    <color name="mercuryPrimary">#E6E6E6</color>
+    <color name="mercurySecondary">#EBEBEB</color>
+    <color name="venusPrimary">#AA5F1B</color>
+    <color name="venusSecondary">#B26F32</color>
+</resources>
