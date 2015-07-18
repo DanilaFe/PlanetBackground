@@ -26,6 +26,7 @@ public class LaunchActivity extends ActionBarActivity {
             i.setAction(WallpaperManager.ACTION_LIVE_WALLPAPER_CHOOSER);
         }
         startActivityForResult(i,0);
+        finish();
     }
 
     @Override
