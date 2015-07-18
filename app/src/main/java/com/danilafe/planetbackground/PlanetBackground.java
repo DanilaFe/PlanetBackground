@@ -1,4 +1,4 @@
-package com.danilafe.planetbackground.service;
+package com.danilafe.planetbackground;
 
 import android.graphics.Canvas;
 import android.graphics.Color;
