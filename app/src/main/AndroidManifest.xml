@@ -1,24 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.danilafe.planetbackground">
+    package="com.danilafe.planetbackground" >
 
-    <application android:allowBackup="true" android:label="@string/app_name"
-        android:icon="@mipmap/ic_launcher" android:theme="@style/AppTheme">
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
 
         <!-- Wallpaper Service -->
-        <service android:name=".service.PlanetBackground"
-                 android:label="@string/app_name"
-                 android:permission="android.permission.BIND_WALLPAPER" >
-
+        <service
+            android:name=".PlanetBackground"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_WALLPAPER" >
             <intent-filter>
-                <action android:name="android.service.wallpaper.WallpaperService"/>
+                <action android:name="android.service.wallpaper.WallpaperService" />
             </intent-filter>
 
             <meta-data
                 android:name="android.service.wallpaper"
                 android:resource="@xml/planetbackground" />
-
         </service>
 
+        <activity
+            android:name=".LaunchActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
